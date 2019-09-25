@@ -2,11 +2,33 @@
 
 namespace inClass0924
 {
-    class Program
+    class Person
+
     {
-        static void Main(string[] args)
+
+        string lastName;
+        string firstName;
+        string getName()
         {
-            Console.WriteLine("Hello World!");
+            return firstName + " " + lastName;
         }
+
+        public Person()
+        {
+            firstName = "Niranjan";
+            lastName = "Kumar";
+        }
+        public Person(string lname)
+        {
+            lastName = lname;
+        }
+
     }
+
 }
+
+
+
+
+
+
